@@ -1,0 +1,165 @@
+@import 'utilities.css';
+:root{
+    --primary: #2E86C1;
+    --dark:#17202A;
+    --pure:#ECF0F1;
+    --ternay:#979A9A;
+    --light:#A6ACAF;
+    --secondary:rgba(0, 0, 0, 0.664);
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%,40% 90%,0 100%);
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container p{
+    margin-left: 5rem;
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero{
+    padding: 3rem 0;
+}
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.5rem;
+    color: rgb(230, 81, 126);
+    margin-bottom: 0.5rem;
+    margin-top: 7rem;
+}
+.hero .right h1{
+    font-size: 2rem;
+    font-weight: 20;
+    margin-bottom: 1rem;
+}
+.hero .right h1 span{
+    color: aqua;
+
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2 rem;
+    margin-left: 2rem;
+}
+.hero .right{
+    margin-top: -5rem;
+}
+section.About h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: right;
+    margin-left: 1rem;
+    margin-top: 8rem;
+}
+section.About h1 span{
+    color: aqua;
+    text-align: right;
+}
+.section-heading{
+    color: var(--secondary);
+    text-align: center;
+    margin: 1rem;
+    line-height: 0.5;
+    margin-top: 5rem;
+    font-size: 5rem;
+}
+.section-heading span{
+    color: var(--primary);
+    
+}
+.section-heading + p{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 2rem;
+    text-size-adjust: 3rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+section.services{
+    background: var(--light);
+}
+section.About h3{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+section.freelancer{
+    text-align: center;
+    background: #17202A
+}
+section.education li{
+    font-size: 2rem;
+    text-align: center; 
+    padding-top: 2rem;   
+}
+section.education p{
+    padding-top: 1.5rem;
+}
+section.education li span{
+    color: aqua;
+}
+section.skills span{
+    color: aqua;
+}
+section.skills h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 5rem;
+}
+section.skills h3{
+    text-align: center;
+    margin-top: 1rem;
+    color: wheat;
+    margin-bottom: 1rem;
+}
+section.skills{
+    background: #17202A;
+}
+section.skills p{
+    color: white;
+}
+section.contact{
+    text-align: center;
+}
+section.contact span{
+    color: rgb(18, 97, 149);
+}
+section.contact h1{
+    margin-top: 2rem;
+}
+
+
